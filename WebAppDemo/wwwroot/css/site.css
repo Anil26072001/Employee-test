@@ -1,0 +1,112 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+/* book.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.testbox {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .banner h1 {
+        margin: 0;
+        color: #333;
+    }
+
+.item {
+    margin-bottom: 20px;
+}
+
+    .item label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .item input[type="text"],
+    .item input[type="number"],
+    .item input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+        .item input[type="text"]::placeholder,
+        .item input[type="number"]::placeholder {
+            color: #aaa;
+        }
+
+    .item input[type="date"] {
+        font-size: 14px;
+    }
+
+.invalid-feedback {
+    color: #e74c3c;
+    font-size: 14px;
+}
+
+.btn-block {
+    text-align: center;
+}
+
+    .btn-block button {
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-block button:hover {
+            background-color: #0056b3;
+        }
+
+.required {
+    color: #e74c3c;
+}
